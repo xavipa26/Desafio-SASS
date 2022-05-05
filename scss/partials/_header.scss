@@ -1,0 +1,23 @@
+$color: rgb(188, 200, 60);
+$font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+header{
+    background-color: $color;
+    nav{
+        text-align: start;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-family: $font-family;
+        font-size: 23px;
+        a{
+            font-family: $font-family;
+            text-decoration: none;
+            color: black;
+            &:hover{
+                color: beige;
+            }
+        }
+    }
+}

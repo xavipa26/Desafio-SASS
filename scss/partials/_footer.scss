@@ -1,0 +1,41 @@
+$color: rgb(188, 200, 60);
+$font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: $color;
+    display: grid;
+    grid-template-areas: 
+    "foot-nosotros foot-redes"
+    "foot-nosotros foot-redes";
+    .foot-redes{
+        background-color: beige;
+        h3{
+            text-align: center;
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        ul{
+            color: $color;
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+            padding: 20px;
+        }
+    }
+
+    .foot-nosotros{
+        h3{
+            text-align: center;
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        p{
+            text-align: justify;
+            padding: 20px;
+        }
+}
+}

@@ -1,0 +1,46 @@
+header {
+  background-color: #bcc83c; }
+  header nav {
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px; }
+    header nav a {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-decoration: none;
+      color: black; }
+      header nav a:hover {
+        color: beige; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #bcc83c;
+  display: grid;
+  grid-template-areas: "foot-nosotros foot-redes" "foot-nosotros foot-redes"; }
+  footer .foot-redes {
+    background-color: beige; }
+    footer .foot-redes h3 {
+      text-align: center;
+      font-size: 25px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    footer .foot-redes ul {
+      color: #bcc83c;
+      text-align: center; }
+    footer .foot-redes p {
+      text-align: justify;
+      padding: 20px; }
+  footer .foot-nosotros h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  footer .foot-nosotros p {
+    text-align: justify;
+    padding: 20px; }
+
+body {
+  background-color: grey;
+  margin: 0;
+  padding: 0; }
